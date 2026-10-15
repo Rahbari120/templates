@@ -1,0 +1,27 @@
+@mixin button {
+    display: block;
+    margin: $m-3;
+    padding: $p-button;
+    border: $border1;
+    background-color: $bg-secondry;
+
+    &:hover {
+        background-color: $bg-gray;
+        border: $border2;
+    }
+}
+
+@mixin button2 {
+    display: block;
+    width: $w-1;
+    padding: $p-button;
+    margin-bottom: $mb-3;
+    margin-top: $mt-2;
+    border: $border3;
+    background-color: $bg-lite;
+
+    &:hover {
+        background-color: $bg-gray;
+        border: $border2;
+    }
+}
